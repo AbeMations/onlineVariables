@@ -1,8 +1,10 @@
-var width = window.innerWidth;
-var height = window.innerHeight;
+var width;
+var height;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
+  width = window.innerWidth;
+  height = window.innerHeight;
   noStroke();
 }
 
