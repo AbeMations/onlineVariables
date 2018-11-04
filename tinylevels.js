@@ -4,6 +4,7 @@ function setup() {
   height = window.innerHeight;
   noStroke();
   rectMode(CENTER);
+  console.log("Game STARTED!");
 }
 
 function draw() {
