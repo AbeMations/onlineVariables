@@ -3,6 +3,7 @@ function setup() {
   width = window.innerWidth;
   height = window.innerHeight;
   noStroke();
+  rectMode(CENTER);
 }
 
 function draw() {
